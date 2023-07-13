@@ -1,6 +1,7 @@
 name: HiFiNi 自动签到
  
 on:
+    repository_dispatch:
     push:
         branches:
             - master
